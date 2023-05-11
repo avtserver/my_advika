@@ -1,0 +1,26 @@
+{
+  "name": "dropship",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/assets/my_advika/dropship/ && yarn copy-html-entry",
+    "preview": "vite preview",
+    "copy-html-entry": "cp ../my_advika/public/dropship/index.html ../my_advika/www/dropship.html"
+  },
+  "dependencies": {
+    "feather-icons": "^4.29.0",
+    "frappe-ui": "^0.0.110",
+    "socket.io-client": "^2.4.0",
+    "vue": "^3.2.47",
+    "vue-router": "^4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.2"
+  }
+}

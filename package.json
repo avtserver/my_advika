@@ -1,0 +1,17 @@
+{
+  "name": "my_advika",
+  "version": "1.0.0",
+  "description": "For MyAdvika",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd dropship && yarn dev",
+    "build": "cd dropship && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "frappe-ui": "^0.0.110"
+  }
+}
